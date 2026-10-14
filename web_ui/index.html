@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>FAQ Chatbot</h1>
+            <p class="subtitle">Ask questions and get instant answers</p>
+        </header>
+
+        <div class="status-bar" id="statusBar">
+            <span class="status-indicator" id="statusIndicator"></span>
+            <span class="status-text" id="statusText">Checking connection...</span>
+        </div>
+
+        <div class="chat-container">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot">
+                    <div class="message-content">
+                        <p>Hello! I'm your FAQ assistant. Ask me any question about our services.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat-input-container">
+                <input
+                    type="text"
+                    id="questionInput"
+                    placeholder="Type your question here..."
+                    autocomplete="off"
+                >
+                <button id="sendButton" onclick="sendQuestion()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                    Send
+                </button>
+            </div>
+        </div>
+
+        <div class="faq-section">
+            <h2>Available FAQs</h2>
+            <div class="faq-list" id="faqList">
+                <p>Loading FAQs...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

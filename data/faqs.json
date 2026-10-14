@@ -1,0 +1,74 @@
+[
+  {
+    "id": "faq_001",
+    "question": "What are your business hours?",
+    "answer": "We are open Monday through Friday, 9 AM to 6 PM (IST). We are closed on weekends and public holidays.",
+    "category": "general"
+  },
+  {
+    "id": "faq_002",
+    "question": "How do I reset my password?",
+    "answer": "To reset your password, click the 'Forgot Password' link on the login page. Enter your registered email address and we will send you a password reset link within a few minutes.",
+    "category": "account"
+  },
+  {
+    "id": "faq_003",
+    "question": "What payment methods do you accept?",
+    "answer": "We accept all major credit and debit cards (Visa, MasterCard, American Express), UPI, net banking, and popular wallets like Paytm and PhonePe.",
+    "category": "billing"
+  },
+  {
+    "id": "faq_004",
+    "question": "How can I track my order?",
+    "answer": "You can track your order by logging into your account and visiting the 'My Orders' section. You will also receive tracking updates via email and SMS.",
+    "category": "orders"
+  },
+  {
+    "id": "faq_005",
+    "question": "What is your return policy?",
+    "answer": "We offer a 30-day hassle-free return policy. Items must be unused, in their original packaging, and accompanied by the original receipt. To initiate a return, contact our support team.",
+    "category": "orders"
+  },
+  {
+    "id": "faq_006",
+    "question": "How do I contact customer support?",
+    "answer": "You can reach our customer support team via email at support@example.com, by phone at +91-1800-XXX-XXXX (toll-free), or through the live chat option available on our website.",
+    "category": "general"
+  },
+  {
+    "id": "faq_007",
+    "question": "Can I change or cancel my order?",
+    "answer": "Orders can be modified or cancelled within 1 hour of placement. After that, the order enters processing and cannot be changed. Please contact support immediately if you need to make changes.",
+    "category": "orders"
+  },
+  {
+    "id": "faq_008",
+    "question": "How do I update my account information?",
+    "answer": "Log in to your account, go to 'Profile Settings', and you can update your name, email, phone number, and address. Some changes may require email verification.",
+    "category": "account"
+  },
+  {
+    "id": "faq_009",
+    "question": "Is my personal data secure?",
+    "answer": "Yes, we take data security very seriously. All personal information is encrypted using industry-standard TLS/SSL protocols. We never sell or share your data with third parties without your consent.",
+    "category": "privacy"
+  },
+  {
+    "id": "faq_010",
+    "question": "How long does shipping take?",
+    "answer": "Standard shipping takes 5-7 business days. Express shipping (2-3 business days) and same-day delivery (select cities) are also available at an additional cost.",
+    "category": "orders"
+  },
+  {
+    "id": "faq_011",
+    "question": "Do you offer a free trial?",
+    "answer": "Yes! We offer a 14-day free trial with full access to all features. No credit card is required to start your trial.",
+    "category": "billing"
+  },
+  {
+    "id": "faq_012",
+    "question": "How do I delete my account?",
+    "answer": "To permanently delete your account, go to 'Profile Settings' > 'Account' > 'Delete Account'. Please note this action is irreversible and all your data will be removed.",
+    "category": "account"
+  }
+]
